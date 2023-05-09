@@ -1,0 +1,106 @@
+body{
+    background-color: skyblue
+}
+.form{
+    margin-top: 100px;
+    background-color: white;
+    min-height: 500px;
+    box-shadow: #002752 0px 0px 20px 0px;
+    margin-bottom: 50px;
+}
+.form_header{
+    height: 40px;
+    background-color: skyblue;
+}
+.form_header > div:last-child{
+    padding: 0px
+}
+.btn_form{
+    width: 48%;
+    margin: 0px;
+    height: 100%;
+    background-color: skyblue;
+    border: none;
+    box-shadow: #002752 0px 0px 5px 0px;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer
+}
+.btn_activ{
+    background-color: white;
+    box-shadow: none;
+    color: black;
+    font-weight: bold
+}
+.form_sign_in_header{
+    height: 48px;
+    margin-top: 10px
+}
+.form_sign_in_header h4{
+    color: #5e5e5e;
+    font-weight: bold;
+    font-style: normal
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.form input[type=text],
+.form input[type=password],
+.form input[type=email],
+.form textarea,
+.form input[type=date],
+.form input[type=number]
+{
+    width: 100%;
+    height: 48px;
+    border: green 1px solid
+}
+.form_item{
+    margin-bottom: 50px
+}
+.form_log_in_content{
+    display: none
+}
+.input-group .input-group-prepend{
+    border: green 1px solid;
+    width: 50px
+}
+.input-group .input-group-prepend .input-group-text img{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 10px
+}
+.login_social_media{
+    width: 100%;
+    background-color: #f0f0f0;
+    border: #cdcdcd 1px solid;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding-bottom: 20px
+}
+.login_social_media button{
+    display: inline-block;
+    height: 48px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    margin-left: 40px
+}
+@media(max-width: 500px){
+    .login_social_media button{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 10px;
+        display: block
+    }
+    .form{
+        margin-left: 8px;
+        margin-right: 8px
+    }
+    .form div[class*=col-]{
+        padding: 8px
+    }
+}

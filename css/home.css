@@ -1,0 +1,9 @@
+
+body {
+    background-image: url("../images/hdback2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .carousel-caption{
+ 	font-weight: bolder;
+ }
